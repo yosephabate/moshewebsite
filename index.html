@@ -16,13 +16,106 @@
   <link href="vendor/bootstrap/css/slick-theme.css" rel="stylesheet">
   <link href="vendor/bootstrap/css/slick.css" rel="stylesheet">
   <link href="vendor/bootstrap/css/aos.css" rel="stylesheet">
+  <link href="static/css/carousel.css" rel="stylesheet">
 
 </head>
 
-<body>
+<body style="padding-top: 100px">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="opacity: 0.93">
+  <div class="container-fluid px-xl-5">
+    <a class="navbar-brand" href="index.html"><img src="static/img/logo.jpg" height="50" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse float-right" id="navbarColor03">
+      <ul class="navbar-nav ml-auto" style="font-size: 1.1em">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Profiles</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Documents
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item py-2" href="#">Guidelines</a>
+            <a class="dropdown-item py-2" href="#">Manuals</a>
+            <a class="dropdown-item py-2" href="#">Policy</a>
+            <a class="dropdown-item py-2" href="#">Standards</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item py-2" href="#">Other</a>
+            <a class="dropdown-item py-2" href="#">All</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</nav>
+
+
+
+<!--  Carousel Region -->
+<div class="container" id="page-start" style="min-height: 73vh">
+  <div class="row">
+
+
+    <div class="col-md-8 p-4">
+
+      <div id="myCarousel" style="height: 60vh" class="carousel slide shadow" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li class="border-primary active" data-target="#myCarousel" data-slide-to="0"></li>
+          <li class="border-primary" data-target="#myCarousel" data-slide-to="1"></li>
+          <li class="border-primary" data-target="#myCarousel" data-slide-to="2"></li>
+          <li class="border-primary" data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="fill rounded" style=" background-image:url('static/img/1.png');"></div>
+          </div>
+          <div class="carousel-item">
+            <div class="fill rounded" style=" background-image:url('static/img/2.png');"></div>
+          </div>
+          <div class="carousel-item">
+            <div class="fill rounded" style=" background-image:url('static/img/3.png');"></div>
+          </div>
+          <div class="carousel-item">
+            <div class="fill rounded" style=" background-image:url('static/img/h.jpg');"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 p-4" style="min-height: 200px;" id="carousel-text-holder">
+
+      <!--<img src="static/img/h.jpg" class="d-inline-block w-100"/>-->
+      <div class="p-3" style="position: absolute; bottom: 10px; left:0;">
+        <h1>
+          The Title
+          Lorem ipsum
+        </h1>
+        <p class="lead">
+          The description
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
 
   <!-- Page Content -->
-
   <div class="container">
     <!-- About us -->
     <div class="row">
@@ -232,6 +325,7 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/bootstrap/js/slick.js"></script>
     <script src="vendor/bootstrap/js/aos.js"></script>
+    <script src="static/js/carousel.js"></script>
     <script>
       $('#news-slide').slick({
         infinite: true,
