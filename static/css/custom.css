@@ -1,24 +1,52 @@
-body{
+body {
     padding-top: 150px;
+    font-size: 1.03em;
+    font-family: 'Exo 2', sans-serif;
 }
 
+h1, h2, h3, h4{
+    font-family: 'Frank Ruhl Libre', serif;
+}
 
-#logo{
+.navbar {
+    -webkit-transition: padding 0.2s ease;
+    -moz-transition: padding 0.2s ease;
+    -o-transition: padding 0.2s ease;
+    transition: padding 0.2s ease;
+    font-size: 0.93em;
+}
+
+.affix {
+    background: white;
+    padding-top: 0.2em !important;
+    padding-bottom: 0.2em !important;
+    -webkit-transition: padding 0.2s linear;
+    -moz-transition: padding 0.2s linear;
+    -o-transition: padding 0.2s linear;
+    transition: padding 0.2s linear;
+}
+
+#logo {
     height: 55px;
+    margin: -10px;
+    transition: margin 0.2s linear;
+    transition: height 0.2s linear;
 }
 
-#page-start{
+#page-start {
     min-height: 90vh;
 }
 
-#myCarousel{
-    height: 70vh;
+#myCarousel {
+    height: 65vh;
 }
 
-#carousel-text-holder{
+#carousel-text-holder {
     min-height: 200px;
 }
 
-#carousel-text-holder div{
-    position: absolute; top: 40%; left:0;
+#carousel-text-holder div {
+    position: absolute;
+    top: 40%;
+    left: 0;
 }
