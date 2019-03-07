@@ -5,7 +5,7 @@ $(document).ready(function () {
         var height = affixElement.outerHeight(),
             top = wrapper.offset().top;
 
-        if (scrollElement.scrollTop() >= top) {
+        if (scrollElement.scrollTop() >= top || $(window).width() < 370) {
             wrapper.height(height);
             affixElement.addClass("affix");
             $("#logo").css("height", "60px");

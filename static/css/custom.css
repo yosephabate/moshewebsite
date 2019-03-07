@@ -13,7 +13,7 @@ h1, h2, h3, h4 {
     -moz-transition: padding 0.2s ease;
     -o-transition: padding 0.2s ease;
     transition: padding 0.2s ease;
-    font-size: 0.93em;
+    font-size: 0.9em;
 }
 
 .affix {
@@ -34,7 +34,7 @@ h1, h2, h3, h4 {
 }
 
 #page-start {
-    min-height: 90vh;
+    min-height: 80vh;
 }
 
 #myCarousel {
