@@ -1,0 +1,24 @@
+body{
+    padding-top: 150px;
+}
+
+
+#logo{
+    height: 55px;
+}
+
+#page-start{
+    min-height: 90vh;
+}
+
+#myCarousel{
+    height: 70vh;
+}
+
+#carousel-text-holder{
+    min-height: 200px;
+}
+
+#carousel-text-holder div{
+    position: absolute; top: 40%; left:0;
+}
