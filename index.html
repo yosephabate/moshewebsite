@@ -13,7 +13,7 @@
     <link href="static/img/favicon.ico" rel="icon">
     <!-- Bootstrap core CSS -->
     <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
-    <link href="vendor/bootstrap/css/bootstrap-simplex.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap-litera.css" rel="stylesheet">
     <link href="vendor/bootstrap/css/slick-theme.css" rel="stylesheet">
     <link href="vendor/bootstrap/css/slick.css" rel="stylesheet">
     <link href="vendor/bootstrap/css/aos.css" rel="stylesheet">
@@ -31,10 +31,12 @@
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-toggleable-sm py-3" data-toggle="affix"
-     style="opacity: 0.93">
-    <div class="container-fluid px-xl-5">
-        <a class="navbar-brand" href="index.html"><img id="logo" src="static/img/logo.jpg"/></a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-toggleable-sm py-3 shadow-sm" data-toggle="affix">
+    <div class="container">
+        <a class="navbar-brand d-inline-block" href="index.html">
+            <img id="logo" src="static/img/logo.png"/>
+        </a>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03"
                 aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -83,40 +85,95 @@
 
         <div class="col-md-8 p-4">
 
-            <div id="myCarousel" class="carousel slide shadow" data-ride="carousel">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
-                    <li class="border-primary active" data-target="#myCarousel" data-slide-to="0"></li>
-                    <li class="border-primary" data-target="#myCarousel" data-slide-to="1"></li>
-                    <li class="border-primary" data-target="#myCarousel" data-slide-to="2"></li>
-                    <li class="border-primary" data-target="#myCarousel" data-slide-to="3"></li>
+                    <li class="border-primary rounded active" data-target="#myCarousel" data-slide-to="0"></li>
+                    <li class="border-primary rounded" data-target="#myCarousel" data-slide-to="1"></li>
+                    <li class="border-primary rounded" data-target="#myCarousel" data-slide-to="2"></li>
+                    <li class="border-primary rounded" data-target="#myCarousel" data-slide-to="3"></li>
                 </ol>
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="fill rounded" style=" background-image:url('static/img/1.png');"></div>
+                    <div class="carousel-item active" style="padding-bottom: 250px">
+                        <div class="fill rounded shadow" style=" background-image:url('static/img/1.png');"></div>
+                        <div class="p-5 text-center carousel-description">
+                            <h1>
+                                Higher Education
+                            </h1>
+                            <p class="lead">
+                                The description
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                et dolore magna aliqua.
+                            </p>
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="fill rounded" style=" background-image:url('static/img/2.png');"></div>
+                    <div class="carousel-item" style="padding-bottom: 250px">
+                        <div class="fill rounded shadow" style=" background-image:url('static/img/2.png');"></div>
+                        <div class="p-5 text-center carousel-description">
+                            <h1>
+                                TVET
+                            </h1>
+                            <p class="lead">
+                                The description
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                et dolore magna aliqua.
+                            </p>
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="fill rounded" style=" background-image:url('static/img/3.png');"></div>
+                    <div class="carousel-item" style="padding-bottom: 250px">
+                        <div class="fill rounded shadow" style=" background-image:url('static/img/3.png');"></div>
+                        <div class="p-5 text-center carousel-description">
+                            <h1>
+                                Science
+                            </h1>
+                            <p class="lead">
+                                The description
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                et dolore magna aliqua.
+                            </p>
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="fill rounded" style=" background-image:url('static/img/h.jpg');"></div>
+                    <div class="carousel-item" style="padding-bottom: 250px">
+                        <div class="fill rounded shadow" style=" background-image:url('static/img/h.jpg');"></div>
+                        <div class="p-5 text-center carousel-description">
+                            <h1>
+                                Leaders
+                            </h1>
+                            <p class="lead">
+                                The description
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                et dolore magna aliqua.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="col-md-4 p-4" id="carousel-text-holder">
-
+        <div class="col-md-4 p-2">
             <!--<img src="static/img/h.jpg" class="d-inline-block w-100"/>-->
-            <div class="p-3">
-                <h1>
-                    The Title
-                    Lorem ipsum
-                </h1>
+            <div class="my-4 p-4 " data-aos="fade-left"  data-aos-delay="300" data-aos-duration="500">
+                <h3 class="text-primary"><i class="fas fa-bullseye d-inline-block mr-2"></i> Goal </h3>
+                <hr>
+                <p class="lead">
+                    The description
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="my-4 p-4 " data-aos="fade-left" data-aos-delay="150" data-aos-duration="500">
+                <h3 class="text-primary"><i class="far fa-eye d-inline-block mr-2"></i> Vision</h3>
+                <hr>
+                <p class="lead">
+                    The description
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="my-4 p-4 " data-aos="fade-left" data-aos-duration="500">
+                <h3 class="text-primary"><i class="fas fa-running d-inline-block mr-2"></i> Mission</h3>
+                <hr>
                 <p class="lead">
                     The description
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
@@ -132,11 +189,11 @@
 <!-- Page Content -->
 
 <div class="container">
+    <hr class="bg-primary">
     <!-- About us -->
     <div class="row my-3">
         <div class="col-lg-12 text-center ">
-            <h1 class="mt-5 text-primary"> Ministry of Science and Higher Education</h1>
-            <p class="blockquote text-black-50 font-italic ">The Ministry of Science and Higher Education (MoSHE),
+            <p class="lead text-black-50 font-italic px-md-5">The Ministry of Science and Higher Education (MoSHE),
                 established by proclamation
                 number 1097/2018 in October 2018, is responsible to lead the development of science, higher education as
                 well
@@ -149,12 +206,12 @@
     <!-- Departments -->
     <div class="my-3">
 
-        <h3 class="text-primary"><i class="far fa-building"></i> Departments</h3>
+        <!--<h3 class="text-primary"><i class="far fa-building"></i> Departments</h3>-->
         <div class="row">
 
             <!-- Department 1 -->
-            <div class="col-lg my-2">
-                <div class="card  h-100 shadow-sm">
+            <div class="col-lg col-md-6 my-2" data-aos="fade-right" data-aos-delay="500" data-aos-duration="500">
+                <div class="card  h-100 shadow-sm card-bg">
                     <div class="card-body">
                         <h4 class="card-title text-primary"> The Higher Education Relevance and Quality Agency
                             (HERQA)</h4>
@@ -171,8 +228,8 @@
 
 
             <!-- Department 2 -->
-            <div class="col-lg  my-2">
-                <div class="card  h-100 shadow-sm">
+            <div class="col-lg col-md-6  my-2" data-aos="zoom-in-up" data-aos-delay="200" data-aos-duration="500">
+                <div class="card  h-100 shadow-sm card-bg">
                     <div class="card-body">
                         <h4 class="card-title text-primary">The Higher Education Strategy Center (HESC)</h4>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -188,8 +245,8 @@
 
 
             <!-- Department 3 -->
-            <div class="col-lg  my-2">
-                <div class="card  h-100 shadow-sm">
+            <div class="col-lg col-md-6  my-2" data-aos="zoom-in-up" data-aos-delay="200" data-aos-duration="500">
+                <div class="card  h-100 shadow-sm card-bg">
                     <div class="card-body">
                         <h4 class="card-title text-primary">The TVET Agency and the TVET Institute</h4>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -202,6 +259,22 @@
             </div>
 
             <!-- / Department 3 -->
+
+            <!-- Department 4 -->
+            <div class="col-lg col-md-6  my-2" data-aos="fade-left" data-aos-delay="500" data-aos-duration="500">
+                <div class="card  h-100 shadow-sm card-bg">
+                    <div class="card-body">
+                        <h4 class="card-title text-primary">Ethernet</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor
+                            incididunt
+                            ut labore et dolore magna aliqua.</p>
+                        <a href="#" class="card-link"><i class="fa fa-link text-primary"></i> Visit website</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- / Department 4 -->
 
 
         </div>
@@ -216,10 +289,10 @@
     <div class="row my-3">
         <!-- News -->
         <div class="col-lg-8">
-            <h3 class="my-3 text-primary"><i class="far fa-newspaper"></i> News</h3>
+            <h3 class="my-3 text-primary"><i class="far fa-newspaper"></i> News </h3>
             <div class="row">
                 <div class="col-lg-9 col-md-12 " id="news-slide">
-                    <div class="card mb-3 shadow-sm">
+                    <div class="card mb-3 shadow-sm card-bg">
                         <div class="card-body">
                             <h5 class="card-title text-primary">Members of the Austrian Parliament made a curtsy visit
                                 to the
@@ -239,14 +312,12 @@
                                 W/Mariam noted the importance of international cooperation in order to fill the gaps
                                 observed in
                                 promoting quality ...</p>
+                            <a href="#" class="btn btn-outline-primary float-left my-3">Read More</a>
                         </div>
 
-                        <div class="card-footer bg-white ">
-                            <a href="#" class="btn btn-outline-primary float-left my-2">Read More</a>
-                        </div>
                     </div>
 
-                    <div class="card mb-3 shadow-sm">
+                    <div class="card mb-3 shadow-sm card-bg">
                         <div class="card-body ">
                             <h5 class="card-title text-primary">Members of the Austrian Parliament made a curtsy visit
                                 to the
@@ -267,11 +338,10 @@
                                 W/Mariam noted the importance of international cooperation in order to fill the gaps
                                 observed in
                                 promoting quality ...</p>
+                            <a href="#" class="btn btn-outline-primary float-left my-3">Read More</a>
                         </div>
 
-                        <div class="card-footer bg-white ">
-                            <a href="#" class="btn btn-outline-primary float-left my-2">Read More</a>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -330,7 +400,7 @@
             <div class="row">
                 <!-- service 1 -->
                 <div class="col-lg-12" data-aos="zoom-in-down">
-                    <div class="card  mb-3 border-0">
+                    <div class="card  mb-3 border-0 card-bg">
                         <div class="card-body">
                             <h4 class="card-title text-primary">GVS</h4>
                             <p class="card-text">GVS is a national online document verification system that allows
@@ -346,7 +416,7 @@
 
                 <!-- service 2 -->
                 <div class="col-lg-12" data-aos="zoom-in-down">
-                    <div class="card  mb-3 border-0">
+                    <div class="card  mb-3 border-0 card-bg">
                         <div class="card-body">
                             <h4 class="card-title text-primary">Applicant Allocation System</h4>
                             <p class="card-text">System targeting on solving the time-consuming process of allocating
@@ -361,7 +431,7 @@
 
                 <!-- service 3 -->
                 <div class="col-lg-12" data-aos="zoom-in-down">
-                    <div class="card  mb-3 border-0">
+                    <div class="card  mb-3 border-0 card-bg">
                         <div class="card-body">
                             <h4 class="card-title text-primary">Job Portal</h4>
                             <p class="card-text">A web application for governmental organizations to post Vacancies and
@@ -382,7 +452,7 @@
 
                 <!-- service 4 -->
                 <div class="col-lg-12" data-aos="zoom-in-down">
-                    <div class="card  mb-3 border-0">
+                    <div class="card  mb-3 border-0 card-bg">
                         <div class="card-body">
                             <h4 class="card-title text-primary">አምጡ</h4>
                             <p class="card-text">This portal is used to collect inquiries that are needed by the
@@ -489,8 +559,6 @@
 
 
 </script>
-
-<
 <script>
     AOS.init({
         easing: 'ease-in-out-sine'

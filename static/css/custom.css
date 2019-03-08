@@ -2,6 +2,11 @@ body {
     padding-top: 150px;
     font-size: 1.03em;
     font-family: 'Exo 2', sans-serif;
+    background: #fafbfb;
+}
+
+.card-bg{
+    background-image: url("../img/cards-bg.png");
 }
 
 h1, h2, h3, h4 {
@@ -14,8 +19,14 @@ h1, h2, h3, h4 {
     -o-transition: padding 0.2s ease;
     transition: padding 0.2s ease;
     font-size: 0.9em;
-}
+    padding: 35px;
 
+    background-image: url("../img/body-bg.png");
+}
+footer{
+
+    background-image: url("../img/body-bg.png");
+}
 .affix {
     background: white;
     padding-top: 0.2em !important;
@@ -24,13 +35,23 @@ h1, h2, h3, h4 {
     -moz-transition: padding 0.2s linear;
     -o-transition: padding 0.2s linear;
     transition: padding 0.2s linear;
+    padding: 10px;
+
+    background-image: url("../img/body-bg.png");
+
+}
+
+.brand-name{
+    font-size: 20px;
+    position: absolute;
+    top: 25px;
 }
 
 #logo {
     height: 55px;
-    margin: -10px;
     transition: margin 0.2s linear;
     transition: height 0.2s linear;
+    margin: -5px;
 }
 
 #page-start {
@@ -38,7 +59,7 @@ h1, h2, h3, h4 {
 }
 
 #myCarousel {
-    height: 65vh;
+    height: 80vh;
 }
 
 #carousel-text-holder {

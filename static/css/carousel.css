@@ -1,4 +1,4 @@
-.carousel-inner,.carousel,.carousel-item,.container,.fill {
+.carousel-inner,.carousel,.carousel-item,.fill {
     height:100%;
     min-height:400px;
     width:100%;
@@ -31,7 +31,7 @@
 /*------------------------------- vertical carousel indicators ------------------------------*/
 .carousel-indicators{
     position:absolute;
-    top:0;
+    top:-25%;
     bottom:0;
     margin:auto;
     height:20px;
