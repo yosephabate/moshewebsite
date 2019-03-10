@@ -41,14 +41,14 @@ $(document).ready(function () {
 
     $(".hover-raise").hover(function () {
         $(this).animate({
-            marginTop: "-15px",
-            marginBottom: "15px"
-        }, 400)
+            marginTop: "-5px",
+            marginBottom: "5px"
+        }, 200)
     }, function () {
         $(this).animate({
             marginTop: "0px",
             marginBottom: "0px"
-        }, 300)
+        }, 100)
     })
 
 })

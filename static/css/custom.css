@@ -9,7 +9,7 @@ body {
 
 .card-bg{
     background-image: url("../img/cards-bg.png");
-    opacity: 0.75;
+    opacity: 0.85;
 }
 
 .hover-shadow {
@@ -50,7 +50,13 @@ footer{
     background-image: url("../img/body-bg.png");
 
 }
+.page-content{
+    min-height: 39vh;
+}
 
+.footer-title{
+    font-size: 2.25em;
+}
 .brand-name{
     font-size: 20px;
     position: absolute;
@@ -61,9 +67,11 @@ footer{
     height: 55px;
     transition: margin 0.2s linear;
     transition: height 0.2s linear;
-    margin: -5px;
+    margin: -15px;
 }
+#minister-photo{
 
+}
 #page-start {
     min-height: 80vh;
 }
@@ -102,3 +110,4 @@ footer {
 .icons .fa {
     width: 17%;
 }
+

@@ -14,6 +14,7 @@
     <!-- Bootstrap core CSS -->
     <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
     <link href="vendor/bootstrap/css/bootstrap-simplex.css" rel="stylesheet">
+    <!--<link href="vendor/bootstrap/css/bootstrap-litera.css" rel="stylesheet">-->
     <link href="vendor/bootstrap/css/slick-theme.css" rel="stylesheet">
     <link href="vendor/bootstrap/css/slick.css" rel="stylesheet">
     <link href="vendor/bootstrap/css/aos.css" rel="stylesheet">
@@ -32,7 +33,8 @@
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-toggleable-sm py-3 shadow-sm" data-toggle="affix">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-toggleable-sm py-3 shadow-sm"
+     data-toggle="affix">
     <div class="container">
         <a class="navbar-brand d-inline-block" href="index.html">
             <img id="logo" class="d-inline-block rounded-circle shadow-sm" src="static/img/logo.png"/>
@@ -46,13 +48,16 @@
         <div class="collapse navbar-collapse float-right" id="navbarColor03">
             <ul class="navbar-nav ml-auto" style="font-size: 1.1em">
                 <li class="nav-item active">
-                    <a class="nav-link text-primary" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-primary" href="index.html#about">About Us <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-primary" href="#">News</a>
+                    <a class="nav-link text-primary" href="index.html#news">News</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-primary" href="#">Profiles</a>
+                    <a class="nav-link text-primary" href="index.html#profiles">Profiles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-primary" href="index.html#contact">Contact us</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link text-primary dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -60,17 +65,21 @@
                         Documents
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item py-2" href="#">Guidelines</a>
-                        <a class="dropdown-item py-2" href="#">Manuals</a>
-                        <a class="dropdown-item py-2" href="#">Policy</a>
-                        <a class="dropdown-item py-2" href="#">Standards</a>
+                        <a class="dropdown-item py-2" href="documents.html">Guidelines</a>
+                        <a class="dropdown-item py-2" href="documents.html">Manuals</a>
+                        <a class="dropdown-item py-2" href="documents.html">Policy</a>
+                        <a class="dropdown-item py-2" href="documents.html">Standards</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item py-2" href="#">Other</a>
-                        <a class="dropdown-item py-2" href="#">All</a>
+                        <a class="dropdown-item py-2" href="documents.html">Other</a>
+                        <a class="dropdown-item py-2" href="documents.html">All</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <span class="nav-link text-primary" style="margin-top: -2px"><input type="checkbox" data-toggle="toggle" data-on="<em>አማርኛ</em>" data-off="<em>English</em>" data-size="small"></span>
+                    <span class="nav-link text-primary" style="margin-top: -2px"><input type="checkbox"
+                                                                                        data-toggle="toggle"
+                                                                                        data-on="<em>አማርኛ</em>"
+                                                                                        data-off="<em>English</em>"
+                                                                                        data-size="small"></span>
                 </li>
             </ul>
         </div>
@@ -86,7 +95,8 @@
 
         <div class="col-md-8 p-4">
 
-            <div id="myCarousel" class="carousel slide" data-ride="carousel"  data-aos="fade-right"  data-aos-delay="100" data-aos-duration="500">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-aos="fade-right" data-aos-delay="100"
+                 data-aos-duration="500">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li class="border-primary rounded active" data-target="#myCarousel" data-slide-to="0"></li>
@@ -97,53 +107,57 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="carousel-item active" style="padding-bottom: 250px">
-                        <div class="fill rounded shadow" style=" background-image:url('static/img/1.png');"></div>
+                        <div class="fill rounded shadow-lg" style=" background-image:url('static/img/1.png');"></div>
                         <div class="p-5 text-center carousel-description">
                             <h1>
                                 Higher Education
                             </h1>
                             <p class="lead">
                                 The description
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore
                                 et dolore magna aliqua.
                             </p>
                         </div>
                     </div>
                     <div class="carousel-item" style="padding-bottom: 250px">
-                        <div class="fill rounded shadow" style=" background-image:url('static/img/2.png');"></div>
+                        <div class="fill rounded shadow-lg" style=" background-image:url('static/img/2.png');"></div>
                         <div class="p-5 text-center carousel-description">
                             <h1>
                                 TVET
                             </h1>
                             <p class="lead">
                                 The description
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore
                                 et dolore magna aliqua.
                             </p>
                         </div>
                     </div>
                     <div class="carousel-item" style="padding-bottom: 250px">
-                        <div class="fill rounded shadow" style=" background-image:url('static/img/3.png');"></div>
+                        <div class="fill rounded shadow-lg" style=" background-image:url('static/img/3.png');"></div>
                         <div class="p-5 text-center carousel-description">
                             <h1>
                                 Science
                             </h1>
                             <p class="lead">
                                 The description
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore
                                 et dolore magna aliqua.
                             </p>
                         </div>
                     </div>
                     <div class="carousel-item" style="padding-bottom: 250px">
-                        <div class="fill rounded shadow" style=" background-image:url('static/img/h.jpg');"></div>
+                        <div class="fill rounded shadow-lg" style=" background-image:url('static/img/h.jpg');"></div>
                         <div class="p-5 text-center carousel-description">
                             <h1>
                                 Leaders
                             </h1>
                             <p class="lead">
                                 The description
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore
                                 et dolore magna aliqua.
                             </p>
                         </div>
@@ -154,7 +168,7 @@
 
         <div class="col-md-4 p-2">
             <!--<img src="static/img/h.jpg" class="d-inline-block w-100"/>-->
-            <div class="my-4 p-4 " data-aos="fade-left"  data-aos-delay="300" data-aos-duration="500">
+            <div class="my-4 p-4 " data-aos="fade-left" data-aos-delay="300" data-aos-duration="500">
                 <h3 class="text-primary"><i class="fas fa-bullseye d-inline-block mr-2"></i> Goal </h3>
                 <hr>
                 <p class="lead">
@@ -189,12 +203,13 @@
 
 <!-- Page Content -->
 
-<div class="container">
+<div class="container" id="about">
     <hr class="bg-primary">
     <!-- About us -->
-    <div class="row my-3">
-        <div class="col-lg-12 text-center ">
-            <p class="lead text-black-50 font-italic px-md-5" style="font-size: 1.2em">The Ministry of Science and Higher Education (MoSHE),
+    <div class="row my-4">
+        <div class="col-lg-12 text-center">
+            <p class="lead text-black-50 font-italic px-md-5" style="font-size: 1.2em">The Ministry of Science and
+                Higher Education (MoSHE),
                 established by proclamation
                 number 1097/2018 in October 2018, is responsible to lead the development of science, higher education as
                 well
@@ -220,7 +235,8 @@
                             tempor
                             incididunt
                             ut labore et dolore magna aliqua.</p>
-                        <a href="#" class="card-link"><i class="fa fa-link text-primary"></i> Visit website</a>
+                        <a href="linkto.html" target="_blank" class="card-link"><i class="fa fa-link text-primary"></i>
+                            Visit website</a>
                     </div>
                 </div>
             </div>
@@ -237,7 +253,8 @@
                             tempor
                             incididunt
                             ut labore et dolore magna aliqua.</p>
-                        <a href="#" class="card-link"><i class="fa fa-link text-primary"></i> Visit website</a>
+                        <a href="linkto.html" target="_blank" class="card-link"><i class="fa fa-link text-primary"></i>
+                            Visit website</a>
                     </div>
                 </div>
             </div>
@@ -254,7 +271,8 @@
                             tempor
                             incididunt
                             ut labore et dolore magna aliqua.</p>
-                        <a href="#" class="card-link"><i class="fa fa-link text-primary"></i> Visit website</a>
+                        <a href="linkto.html" target="_blank" class="card-link"><i class="fa fa-link text-primary"></i>
+                            Visit website</a>
                     </div>
                 </div>
             </div>
@@ -270,7 +288,8 @@
                             tempor
                             incididunt
                             ut labore et dolore magna aliqua.</p>
-                        <a href="#" class="card-link"><i class="fa fa-link text-primary"></i> Visit website</a>
+                        <a href="linkto.html" target="_blank" class="card-link"><i class="fa fa-link text-primary"></i>
+                            Visit website</a>
                     </div>
                 </div>
             </div>
@@ -289,7 +308,7 @@
 
     <div class="row my-3">
         <!-- News -->
-        <div class="col-lg-8">
+        <div class="col-lg-8" id="news">
             <h3 class="my-3 text-primary"><i class="far fa-newspaper"></i> News </h3>
             <div class="row">
                 <div class="col-lg-9 col-md-12 " id="news-slide">
@@ -306,6 +325,7 @@
 
                         <div class="card-body">
                             <p class="card-text text-justify">
+                                News 1
                                 During the visit, her Excellency Prof. Hirut W/Mariam, Minster of Science and Higher
                                 Education said
                                 Business is not as usual in Ethiopia. Briefing the strategic goals of the Ministry,
@@ -313,7 +333,7 @@
                                 W/Mariam noted the importance of international cooperation in order to fill the gaps
                                 observed in
                                 promoting quality ...</p>
-                            <a href="#" class="btn btn-outline-primary float-left my-3">Read More</a>
+                            <a href="news.html" class="btn btn-outline-primary float-left my-3">Read More</a>
                         </div>
 
                     </div>
@@ -332,6 +352,7 @@
 
                         <div class="card-body">
                             <p class="card-text text-justify">
+                                News 2
                                 During the visit, her Excellency Prof. Hirut W/Mariam, Minster of Science and Higher
                                 Education said
                                 Business is not as usual in Ethiopia. Briefing the strategic goals of the Ministry,
@@ -339,7 +360,7 @@
                                 W/Mariam noted the importance of international cooperation in order to fill the gaps
                                 observed in
                                 promoting quality ...</p>
-                            <a href="#" class="btn btn-outline-primary float-left my-3">Read More</a>
+                            <a href="news.html" class="btn btn-outline-primary float-left my-3">Read More</a>
                         </div>
 
 
@@ -349,44 +370,114 @@
 
             <div class="row">
                 <div class="col-lg-9">
-                    <button type="button" data-toggle="tooltip" data-placement="left" title="Previous"
+                    <button type="button"
                             class="btn btn-secondary text-primary" id="prev"><i
                             class="fas fa-chevron-circle-left text"></i>
                         Previous
                     </button>
-                    <button type="button" data-toggle="tooltip" data-placement="right" title="Next"
+                    <button type="button"
                             class="btn btn-secondary text-primary" id="next">Next <i
                             class="fas fa-chevron-circle-right text"></i></button>
                 </div>
 
             </div>
 
-            <div class="profiles mb-5" style="margin-top: 30px;">
-                <h2 class="text-primary"><i class="fas fa-users"> </i> Profiles</h2>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="card d-inline">
-                            <div class="card-body">
-                                <div class="rounded-circle shadow-lg"
-                                     style="background-image:url('static/img/minister.jpg');"></div>
-                                <h3 class="card-title ml-2">Hirut Woldemariam(Prof.)</h3>
-                                <p class="card-subtitle ml-2">Minister</p>
-                                <a href="#" class="btn btn-sm btn-outline-primary ml-2 mt-2">More</a>
-                            </div>
+            <div class="profiles mb-5" style="margin-top: 30px;" id="profiles">
+                <hr class="bg-primary my-3"/>
+                <h3 class="my-3 text-primary"><i class="fas fa-users"></i> Profiles </h3>
+
+                <div class="row card-bg">
+                    <div class="col text-center" data-aos="zoom-in" data-aos-duration="500">
+                        <div class="m-3 p-3 col-md-8 d-inline-block text-center">
+                            <div class="rounded-circle shadow-lg d-inline-block border border-primary" id="minister-photo"
+                                 style="background-image:url('static/img/minister.jpg'); background-size: cover; background-repeat: no-repeat; width: 300px; height: 300px;"></div>
+                            <h3 class="pt-4">Proff. Hirut Woldemariam </h3>
+                            <em class="text-muted">
+                                Minister
+                            </em>
+                            <hr>
+                            <p>What does this person do?</p>
+                            <p>
+                                <a href="#"><i
+                                        class="fab fa-facebook-f bg-primary text-white m-1 rounded-circle d-inline-block font-weight-bold text-center"
+                                        style="width: 40px; height: 40px; line-height: 40px; font-size: 20px"></i></a>
+                                <a href="#"><i
+                                        class="fab fa-twitter bg-primary text-white m-1 rounded-circle d-inline-block font-weight-bold text-center"
+                                        style="width: 40px; height: 40px; line-height: 40px; font-size: 20px"></i></a>
+                                <a href="#"><i
+                                        class="fab fa-linkedin bg-primary text-white m-1 rounded-circle d-inline-block font-weight-bold text-center"
+                                        style="width: 40px; height: 40px; line-height: 40px; font-size: 20px"></i></a>
+                                <a href="#"><i
+                                        class="fas fa-envelope bg-primary text-white m-1 rounded-circle d-inline-block font-weight-bold text-center"
+                                        style="width: 40px; height: 40px; line-height: 40px; font-size: 20px"></i></a>
+                            </p>
+
+                            <a href="static/TrialPdf.pdf" target="_blank" class="text-primary">More Info...</a>
 
                         </div>
+                        <hr/>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="card d-inline">
-                            <div class="card-body">
-                                <div class="rounded-circle shadow-lg"
-                                     style="background-image:url('static/img/stateMinister.jpg'); background-size: 90%; background-repeat: no-repeat;"></div>
-                                <h3 class="card-title ml-2">Afework Kassu(Prof.)</h3>
-                                <p class="card-subtitle ml-2">State Minister</p>
-                                <a href="#" class="btn btn-sm btn-outline-primary ml-2 mt-2">More</a>
-                            </div>
+                </div>
+
+                <div class="row card-bg">
+                    <div class="col-md-6" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="500">
+                        <div class="m-3 p-3 text-center">
+                            <div class="rounded-circle shadow-lg d-inline-block border border-primary"
+                                 style="background-image:url('static/img/stateMinister.png'); background-size: cover; background-repeat: no-repeat; width: 250px; height: 250px;"></div>
+                            <h3 class="pt-4">Proff. Afework Kassu</h3>
+                            <em class="text-muted">
+                                State Minister
+                            </em>
+                            <hr>
+                            <p>What does this person do?</p>
+                            <p>
+                                <a href="#"><i
+                                        class="fab fa-facebook-f bg-primary text-white m-1 rounded-circle d-inline-block font-weight-bold text-center"
+                                        style="width: 40px; height: 40px; line-height: 40px; font-size: 20px"></i></a>
+                                <a href="#"><i
+                                        class="fab fa-twitter bg-primary text-white m-1 rounded-circle d-inline-block font-weight-bold text-center"
+                                        style="width: 40px; height: 40px; line-height: 40px; font-size: 20px"></i></a>
+                                <a href="#"><i
+                                        class="fab fa-linkedin bg-primary text-white m-1 rounded-circle d-inline-block font-weight-bold text-center"
+                                        style="width: 40px; height: 40px; line-height: 40px; font-size: 20px"></i></a>
+                                <a href="#"><i
+                                        class="fas fa-envelope bg-primary text-white m-1 rounded-circle d-inline-block font-weight-bold text-center"
+                                        style="width: 40px; height: 40px; line-height: 40px; font-size: 20px"></i></a>
+                            </p>
+
+                            <a href="static/TrialPdf.pdf" target="_blank" class="text-primary">More Info...</a>
                         </div>
                     </div>
+
+                    <div class="col-md-6" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="500">
+                        <div class="m-3 p-3 text-center">
+                            <div class="rounded-circle shadow-lg d-inline-block border border-primary"
+                                 style="background-image:url('static/img/stateMinister.png'); background-size: cover; background-repeat: no-repeat; width: 250px; height: 250px;"></div>
+                            <h3 class="pt-4">Proff. Afework Kassu </h3>
+                            <em class="text-muted">
+                                State Minister
+                            </em>
+                            <hr>
+                            <p>What does this person do?</p>
+                            <p>
+                                <a href="#"><i
+                                        class="fab fa-facebook-f bg-primary text-white m-1 rounded-circle d-inline-block font-weight-bold text-center"
+                                        style="width: 40px; height: 40px; line-height: 40px; font-size: 20px"></i></a>
+                                <a href="#"><i
+                                        class="fab fa-twitter bg-primary text-white m-1 rounded-circle d-inline-block font-weight-bold text-center"
+                                        style="width: 40px; height: 40px; line-height: 40px; font-size: 20px"></i></a>
+                                <a href="#"><i
+                                        class="fab fa-linkedin bg-primary text-white m-1 rounded-circle d-inline-block font-weight-bold text-center"
+                                        style="width: 40px; height: 40px; line-height: 40px; font-size: 20px"></i></a>
+                                <a href="#"><i
+                                        class="fas fa-envelope bg-primary text-white m-1 rounded-circle d-inline-block font-weight-bold text-center"
+                                        style="width: 40px; height: 40px; line-height: 40px; font-size: 20px"></i></a>
+                            </p>
+
+                            <a href="static/TrialPdf.pdf" target="_blank" class="text-primary">More Info...</a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
@@ -396,7 +487,7 @@
 
 
         <!-- services -->
-        <div class="col-lg-4 col-md-12">
+        <div class="col-lg-4 col-md-12" id="services">
             <h3 class="my-3 text-primary"><i class="fa fa-cogs"></i> Services</h3>
             <div class="row">
                 <!-- service 1 -->
@@ -409,7 +500,8 @@
                                 compare a person's information with a government record so as to assure that the
                                 information is not
                                 fraud.</p>
-                            <a href="#" class="card-link">Visit website</a>
+                            <a href="linkto.html" target="_blank" class="btn btn-outline-primary">
+                                Go <i class="fas fa-arrow-right d-inline-block"></i></a>
                         </div>
                     </div>
                 </div>
@@ -423,7 +515,8 @@
                             <p class="card-text">System targeting on solving the time-consuming process of allocating
                                 applicants on
                                 government sponsored education for masters and PHD from government universities.</p>
-                            <a href="#" class="card-link">Visit website</a>
+                            <a href="linkto.html" target="_blank" class="btn btn-outline-primary">
+                                Go <i class="fas fa-arrow-right d-inline-block"></i></a>
                         </div>
                     </div>
                 </div>
@@ -444,7 +537,8 @@
                                 applicants can go through vacancy posts, get notified of new vacancies and get detailed
                                 information.
                             </p>
-                            <a href="#" class="card-link">Visit website</a>
+                            <a href="linkto.html" target="_blank" class="btn btn-outline-primary">
+                                Go <i class="fas fa-arrow-right d-inline-block"></i></a>
                         </div>
                     </div>
                 </div>
@@ -461,7 +555,8 @@
                                 and Higher Education. Results of the inquiries can be used in policy making process and
                                 to check the
                                 effectiveness of implemented plan.</p>
-                            <a href="#" class="card-link">Visit website</a>
+                            <a href="linkto.html" target="_blank" class="btn btn-outline-primary">
+                                    Go <i class="fas fa-arrow-right d-inline-block"></i></a>
                         </div>
                     </div>
                 </div>
@@ -474,65 +569,166 @@
 
     </div>
     <!--/ News and services -->
-</div>
 
-<footer class="container-fluid page-footer p-4 pt-5">
-    <div class="row" style="margin-bottom: 30px;">
-        <div class="col-lg-2 col-md-2">
-            <h5 class="text-primary"><strong>CONTACT US</strong></h5>
-            <hr>
-            <p><i class="fa fa-envelope-o"></i> <a class="border-bottom border-primary"
-                                                   href="mailto:contact@example.com">moshe@ethernet.edu.et</a></p>
-            <p><i class="fa fa-phone"></i> +251 11 155 31 33 </p>
-            <div class="ml-0 mr-0 w-100 pl-0 icons">
-                <i class="fa fa-twitter fa-lg text-center border-right"></i>
-                <i class="fa fa-facebook fa-lg text-center border-right"></i>
-                <i class="fa fa-instagram fa-lg text-center border-right"></i>
-                <i class="fa fa-google-plus fa-lg text-center border-right"></i>
-                <i class="fa fa-linkedin fa-lg text-center"></i>
+    <hr class="bg-primary">
+    <div class="my-3 container" id="contact">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="my-3 text-primary"><i class="fas fa-map-marked-alt"></i> Find Us</h3>
+                        <ul class="list-unstyled px-3">
+                            <li class="m-2">
+                                Office Address: this place this place
+                            </li>
+                            <li class="m-2">
+                                Allternative name: this and this place
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12" style="font-size: 1.1em;">
+                        <h3 class="my-3 text-primary"><i class="far fa-address-card"></i> Contact</h3>
+                        <ul class="list-unstyled px-3">
+                            <li class="m-2">
+                                <a href="tel:+251111553133"><i
+                                        class="fas fa-phone text-primary d-inline-block mx-2"></i>+251 111 55 3133</a>
+                            </li>
+                            <li class="m-2">
+                                <a href="mailto:moshe@ethernet.edu.et"><i
+                                        class="fas fa-envelope text-primary d-inline-block mx-2"></i>moshe@ethernet.edu.et</a>
+                            </li>
+                            <li class="m-2 my-3">
+                                <p class="ml-md-5">
+                                    <a href="#"><i
+                                            class="fab fa-facebook-f bg-primary text-white m-1 rounded-circle d-inline-block font-weight-bold text-center"
+                                            style="width: 40px; height: 40px; line-height: 40px; font-size: 20px"></i></a>
+                                    <a href="#"><i
+                                            class="fab fa-twitter bg-primary text-white m-1 rounded-circle d-inline-block font-weight-bold text-center"
+                                            style="width: 40px; height: 40px; line-height: 40px; font-size: 20px"></i></a>
+                                    <a href="#"><i
+                                            class="fab fa-linkedin bg-primary text-white m-1 rounded-circle d-inline-block font-weight-bold text-center"
+                                            style="width: 40px; height: 40px; line-height: 40px; font-size: 20px"></i></a>
+                                </p>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
             </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="mapouter h-100">
+                    <div class="gmap_canvas h-100">
+                        <iframe class="h-100 w-100" id="gmap_canvas" style="min-height: 400px"
+                                src="https://maps.google.com/maps?q=8%C2%B059'05.2%22N%2038%C2%B047'04.1%22E&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                        </iframe>
 
-        </div>
-        <div class="col-lg-4 col-md-4">
-            <div class="mapouter">
-                <div class="gmap_canvas">
-                    <iframe style="width: 100%; height: 350px;" id="gmap_canvas"
-                            src="https://maps.google.com/maps?q=8%C2%B059'05.2%22N%2038%C2%B047'04.1%22E&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-                    </iframe>
-
+                    </div>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
 
+<footer class="p-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h3 class="my-3 text-primary footer-title">MoSHE</h3>
+                <p>
+                    Description about MoSHE!
+                </p>
+            </div>
+            <div class="col-md">
+                <h3 class="my-3 text-primary">Adress</h3>
+                <ul class="list-unstyled">
+                    <li class="my-2">
+                        Addis Ababa, Ethiopia
+                    </li>
+                    <li class="my-2">
+                        Bole ...
+                    </li>
+                    <li class="my-2">
+                        Building name PoBox
+                    </li>
+                </ul>
+                <hr>
+                <h3 class="my-3 text-primary">Contact Us</h3>
+                <ul class="list-unstyled">
+                    <li class="my-2">
+                        <a href="tel:+251111553133"><i
+                                class="fas fa-phone text-primary d-inline-block mx-2"></i>+251 111 55 3133</a>
+                    </li>
+                    <li class="my-2">
+                        <a href="mailto:moshe@ethernet.edu.et"><i
+                                class="fas fa-envelope text-primary d-inline-block mx-2"></i>moshe@ethernet.edu.et</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md">
+                <h3 class="my-3 text-primary">Services</h3>
+                <ul class="list-unstyled">
+                    <li class="my-2">
+                        <a href="linkto.html">GVS</a>
+                    </li>
+                    <li class="my-2">
+                        <a href="linkto.html">Applicant Allocation System</a>
+                    </li>
+                    <li class="my-2">
+                        <a href="linkto.html">Job Portal</a>
+                    </li>
+                    <li class="my-2">
+                        <a href="linkto.html">አምጡ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3 class="my-3 text-primary">Departments</h3>
+                <ul class="list-unstyled">
+                    <li class="my-2">
+                        <a href="linkto.html">The Higher Education Relevance and Quality Agency (HERQA)</a>
+                    </li>
+                    <li class="my-2">
+                        <a href="linkto.html">The Higher Education Strategy Center (HESC)</a>
+                    </li>
+                    <li class="my-2">
+                        <a href="linkto.html">The TVET Agency and the TVET Institute</a>
+                    </li>
+                    <li class="my-2">
+                        <a href="linkto.html">Ethernet</a>
+                    </li>
+                </ul>
+            </div>
 
         </div>
-        <div class="col-lg-2 col-md-2">
-            <h5 class="text-primary"><strong>FIND US</strong></h5>
-            <hr>
-            Address
-        </div>
-        <div class="col-lg-2 col-md-2">
-            <h5 class="text-primary"><strong>SERVICES</strong></h5>
-            <hr>
-            <p><a class="border-bottom border-primary" href="#">አምጡ</a></p>
-            <p><a class="border-bottom border-primary" href="#">Job Portal</a></p>
-            <p><a class="border-bottom border-primary" href="#">Applicant Allocation System</a></p>
-            <p><a class="border-bottom border-primary" href="#">GVS</a></p>
-        </div>
-        <div class="col-lg-2 col-md-2">
-            <h5 class="text-primary"><strong>DEPARTMENTS</strong></h5>
-            <hr>
-            <p><a class="border-bottom border-primary" href="#"> The Higher Education Relevance and Quality Agency
-                (HERQA)</a></p>
-            <p><a class="border-bottom border-primary" href="#"> The Higher Education Strategy Center (HESC)</a></p>
-            <p><a class="border-bottom border-primary" href="#"> The TVET Agency and the TVET Institute</a></p>
-        </div>
 
+        <div class="row">
+            <div class="col pt-4">
+                <p>
+                    Copyright <strong>Ministry of Science and Higher Education</strong>. All Rights Reserved
+                </p>
+
+                <p>
+                    <a href="#"><i
+                            class="fab fa-facebook-f bg-primary text-white m-1 rounded-circle d-inline-block font-weight-bold text-center"
+                            style="width: 40px; height: 40px; line-height: 40px; font-size: 20px"></i></a>
+                    <a href="#"><i
+                            class="fab fa-twitter bg-primary text-white m-1 rounded-circle d-inline-block font-weight-bold text-center"
+                            style="width: 40px; height: 40px; line-height: 40px; font-size: 20px"></i></a>
+                    <a href="#"><i
+                            class="fab fa-linkedin bg-primary text-white m-1 rounded-circle d-inline-block font-weight-bold text-center"
+                            style="width: 40px; height: 40px; line-height: 40px; font-size: 20px"></i></a>
+                </p>
+
+            </div>
+        </div>
     </div>
 
-    <div class="copyright text-center pt-4 border-top w-75 m-auto">
-        &copy; Copyright <strong>Ministry of Science and Higher Education</strong>. All Rights Reserved
-    </div>
 </footer>
 
 <!-- Bootstrap core JavaScript -->
