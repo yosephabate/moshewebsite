@@ -1,17 +1,27 @@
 body {
     padding-top: 150px;
     font-size: 1.03em;
-    font-family: 'Exo 2', sans-serif;
+    /*font-family: 'Exo 2', sans-serif;*/
+    /*font-family: 'Libre Baskerville', serif;*/
+    font-family: 'Frank Ruhl Libre', serif;
     background: #fafbfb;
 }
 
 .card-bg{
     background-image: url("../img/cards-bg.png");
+    opacity: 0.75;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Frank Ruhl Libre', serif;
+.hover-shadow {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
+.hover-shadow:hover{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/*h1, h2, h3, h4 {*/
+    /*font-family: 'Frank Ruhl Libre', serif;*/
+/*}*/
 
 .navbar {
     -webkit-transition: padding 0.2s ease;
@@ -20,7 +30,7 @@ h1, h2, h3, h4 {
     transition: padding 0.2s ease;
     font-size: 0.9em;
     padding: 35px;
-
+    opacity: 0.95;
     background-image: url("../img/body-bg.png");
 }
 footer{

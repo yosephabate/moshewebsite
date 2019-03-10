@@ -13,7 +13,7 @@
     <link href="static/img/favicon.ico" rel="icon">
     <!-- Bootstrap core CSS -->
     <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
-    <link href="vendor/bootstrap/css/bootstrap-litera.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap-simplex.css" rel="stylesheet">
     <link href="vendor/bootstrap/css/slick-theme.css" rel="stylesheet">
     <link href="vendor/bootstrap/css/slick.css" rel="stylesheet">
     <link href="vendor/bootstrap/css/aos.css" rel="stylesheet">
@@ -27,6 +27,7 @@
           integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
 </head>
 
 <body>
@@ -34,7 +35,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-toggleable-sm py-3 shadow-sm" data-toggle="affix">
     <div class="container">
         <a class="navbar-brand d-inline-block" href="index.html">
-            <img id="logo" src="static/img/logo.png"/>
+            <img id="logo" class="d-inline-block rounded-circle shadow-sm" src="static/img/logo.png"/>
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03"
@@ -85,7 +86,7 @@
 
         <div class="col-md-8 p-4">
 
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel"  data-aos="fade-right"  data-aos-delay="100" data-aos-duration="500">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li class="border-primary rounded active" data-target="#myCarousel" data-slide-to="0"></li>
@@ -193,7 +194,7 @@
     <!-- About us -->
     <div class="row my-3">
         <div class="col-lg-12 text-center ">
-            <p class="lead text-black-50 font-italic px-md-5">The Ministry of Science and Higher Education (MoSHE),
+            <p class="lead text-black-50 font-italic px-md-5" style="font-size: 1.2em">The Ministry of Science and Higher Education (MoSHE),
                 established by proclamation
                 number 1097/2018 in October 2018, is responsible to lead the development of science, higher education as
                 well
@@ -210,8 +211,8 @@
         <div class="row">
 
             <!-- Department 1 -->
-            <div class="col-lg col-md-6 my-2" data-aos="fade-right" data-aos-delay="500" data-aos-duration="500">
-                <div class="card  h-100 shadow-sm card-bg">
+            <div class="col-lg col-md-6 my-2 p-1" data-aos="fade-right" data-aos-delay="500" data-aos-duration="500">
+                <div class="card  h-100 card-bg hover-raise hover-shadow">
                     <div class="card-body">
                         <h4 class="card-title text-primary"> The Higher Education Relevance and Quality Agency
                             (HERQA)</h4>
@@ -228,8 +229,8 @@
 
 
             <!-- Department 2 -->
-            <div class="col-lg col-md-6  my-2" data-aos="zoom-in-up" data-aos-delay="200" data-aos-duration="500">
-                <div class="card  h-100 shadow-sm card-bg">
+            <div class="col-lg col-md-6  my-2 p-1" data-aos="zoom-in-up" data-aos-delay="200" data-aos-duration="500">
+                <div class="card  h-100 card-bg hover-raise hover-shadow">
                     <div class="card-body">
                         <h4 class="card-title text-primary">The Higher Education Strategy Center (HESC)</h4>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -245,8 +246,8 @@
 
 
             <!-- Department 3 -->
-            <div class="col-lg col-md-6  my-2" data-aos="zoom-in-up" data-aos-delay="200" data-aos-duration="500">
-                <div class="card  h-100 shadow-sm card-bg">
+            <div class="col-lg col-md-6  my-2 p-1" data-aos="zoom-in-up" data-aos-delay="200" data-aos-duration="500">
+                <div class="card  h-100 card-bg hover-raise hover-shadow">
                     <div class="card-body">
                         <h4 class="card-title text-primary">The TVET Agency and the TVET Institute</h4>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -261,8 +262,8 @@
             <!-- / Department 3 -->
 
             <!-- Department 4 -->
-            <div class="col-lg col-md-6  my-2" data-aos="fade-left" data-aos-delay="500" data-aos-duration="500">
-                <div class="card  h-100 shadow-sm card-bg">
+            <div class="col-lg col-md-6  my-2 p-1" data-aos="fade-left" data-aos-delay="500" data-aos-duration="500">
+                <div class="card  h-100 card-bg hover-raise hover-shadow">
                     <div class="card-body">
                         <h4 class="card-title text-primary">Ethernet</h4>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -361,7 +362,7 @@
             </div>
 
             <div class="profiles mb-5" style="margin-top: 30px;">
-                <h2 class="text-primary"><i class="fas fa-user"> </i> Profiles</h2>
+                <h2 class="text-primary"><i class="fas fa-users"> </i> Profiles</h2>
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="card d-inline">
@@ -540,6 +541,7 @@
 <script src="vendor/bootstrap/js/slick.js"></script>
 <script src="vendor/bootstrap/js/aos.js"></script>
 <script src="static/js/carousel.js"></script>
+<script src="static/js/animate.js"></script>
 <script src="https://use.fontawesome.com/20cb81588d.js"></script>
 <script src="vendor/bootstrap/js/bootstrap-toggle.js"></script>
 
