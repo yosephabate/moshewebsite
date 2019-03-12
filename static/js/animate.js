@@ -38,7 +38,6 @@ $(document).ready(function () {
     });
 
 
-
     $(".hover-raise").hover(function () {
         $(this).animate({
             marginTop: "-5px",
@@ -51,4 +50,4 @@ $(document).ready(function () {
         }, 100)
     })
 
-})
+});

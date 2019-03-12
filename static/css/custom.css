@@ -7,7 +7,7 @@ body {
     background: #fafbfb;
 }
 
-.card-bg{
+.card-bg {
     background-image: url("../img/cards-bg.png");
     opacity: 0.85;
 }
@@ -15,12 +15,13 @@ body {
 .hover-shadow {
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
-.hover-shadow:hover{
+
+.hover-shadow:hover {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 /*h1, h2, h3, h4 {*/
-    /*font-family: 'Frank Ruhl Libre', serif;*/
+/*font-family: 'Frank Ruhl Libre', serif;*/
 /*}*/
 
 .navbar {
@@ -33,10 +34,12 @@ body {
     opacity: 0.95;
     background-image: url("../img/body-bg.png");
 }
-footer{
+
+footer {
 
     background-image: url("../img/body-bg.png");
 }
+
 .affix {
     background: white;
     padding-top: 0.2em !important;
@@ -50,14 +53,16 @@ footer{
     background-image: url("../img/body-bg.png");
 
 }
-.page-content{
+
+.page-content {
     min-height: 42vh;
 }
 
-.footer-title{
+.footer-title {
     font-size: 2.25em;
 }
-.brand-name{
+
+.brand-name {
     font-size: 20px;
     position: absolute;
     top: 25px;
@@ -69,9 +74,11 @@ footer{
     transition: height 0.2s linear;
     margin: -15px;
 }
-#minister-photo{
+
+#minister-photo {
 
 }
+
 #page-start {
     min-height: 90vh;
 }

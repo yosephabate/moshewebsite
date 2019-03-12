@@ -1,4 +1,3 @@
-
 $("#myCarousel").on("touchstart", function (event) {
 
     var yClick = event.originalEvent.touches[0].pageY;

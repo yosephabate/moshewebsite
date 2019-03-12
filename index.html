@@ -4,9 +4,9 @@
 <head>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <meta content="" name="description">
+    <meta content="" name="author">
 
     <title>Welcome - Ministry of Science and Higher Education</title>
 
@@ -24,8 +24,8 @@
     <link href="static/css/carousel.css" rel="stylesheet">
     <link href="static/css/custom.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
@@ -37,11 +37,11 @@
      data-toggle="affix">
     <div class="container">
         <a class="navbar-brand d-inline-block" href="index.html">
-            <img id="logo" class="d-inline-block rounded-circle shadow-sm" src="static/img/logo.png"/>
+            <img class="d-inline-block rounded-circle shadow-sm" id="logo" src="static/img/logo.png"/>
         </a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03"
-                aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+        <button aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+                data-target="#navbarColor03" data-toggle="collapse" type="button">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -60,11 +60,11 @@
                     <a class="nav-link" href="auctions.html">Auctions</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                       href="#" id="navbarDropdown" role="button">
                         Documents
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div aria-labelledby="navbarDropdown" class="dropdown-menu">
                         <a class="dropdown-item py-2" href="documents.html">Guidelines</a>
                         <a class="dropdown-item py-2" href="documents.html">Manuals</a>
                         <a class="dropdown-item py-2" href="documents.html">Policy</a>
@@ -75,11 +75,11 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <span class="nav-link text-primary" style="margin-top: -2px"><input type="checkbox"
-                                                                                        data-toggle="toggle"
+                    <span class="nav-link text-primary" style="margin-top: -2px"><input data-off="<em>English</em>"
                                                                                         data-on="<em>አማርኛ</em>"
-                                                                                        data-off="<em>English</em>"
-                                                                                        data-size="small"></span>
+                                                                                        data-size="small"
+                                                                                        data-toggle="toggle"
+                                                                                        type="checkbox"></span>
                 </li>
             </ul>
         </div>
@@ -95,14 +95,14 @@
 
         <div class="col-md-8 p-4">
 
-            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-aos="fade-right" data-aos-delay="100"
-                 data-aos-duration="500">
+            <div class="carousel slide" data-aos="fade-right" data-aos-delay="100" data-aos-duration="500" data-ride="carousel"
+                 id="myCarousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
-                    <li class="border-primary rounded active" data-target="#myCarousel" data-slide-to="0"></li>
-                    <li class="border-primary rounded" data-target="#myCarousel" data-slide-to="1"></li>
-                    <li class="border-primary rounded" data-target="#myCarousel" data-slide-to="2"></li>
-                    <li class="border-primary rounded" data-target="#myCarousel" data-slide-to="3"></li>
+                    <li class="border-primary rounded active" data-slide-to="0" data-target="#myCarousel"></li>
+                    <li class="border-primary rounded" data-slide-to="1" data-target="#myCarousel"></li>
+                    <li class="border-primary rounded" data-slide-to="2" data-target="#myCarousel"></li>
+                    <li class="border-primary rounded" data-slide-to="3" data-target="#myCarousel"></li>
                 </ol>
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
@@ -220,7 +220,6 @@
     <hr class="bg-primary">
 
 
-
     <!-- News and services -->
 
     <div class="row my-3">
@@ -238,7 +237,7 @@
                             <h6 class="card-subtitle text-muted">6 hours ago</h6>
                         </div>
 
-                        <img style="height: 250px; width: 100%; display: block;" src="./img/2.jpg" alt="Card image">
+                        <img alt="Card image" src="./img/2.jpg" style="height: 250px; width: 100%; display: block;">
 
                         <div class="card-body">
                             <p class="card-text text-justify">
@@ -250,7 +249,7 @@
                                 W/Mariam noted the importance of international cooperation in order to fill the gaps
                                 observed in
                                 promoting quality ...</p>
-                            <a href="news.html" class="btn btn-outline-primary float-left my-3">Read More</a>
+                            <a class="btn btn-outline-primary float-left my-3" href="news.html">Read More</a>
                         </div>
 
                     </div>
@@ -264,8 +263,8 @@
                             <h6 class="card-subtitle text-muted">2 days ago</h6>
                         </div>
 
-                        <img style="height: 250px; width: 100%; display: block;"
-                             src="./img/51790147_2017902991849488_6845339092775862272_ntt.jpg" alt="Card image">
+                        <img alt="Card image"
+                             src="./img/51790147_2017902991849488_6845339092775862272_ntt.jpg" style="height: 250px; width: 100%; display: block;">
 
                         <div class="card-body">
                             <p class="card-text text-justify">
@@ -277,7 +276,7 @@
                                 W/Mariam noted the importance of international cooperation in order to fill the gaps
                                 observed in
                                 promoting quality ...</p>
-                            <a href="news.html" class="btn btn-outline-primary float-left my-3">Read More</a>
+                            <a class="btn btn-outline-primary float-left my-3" href="news.html">Read More</a>
                         </div>
 
 
@@ -287,13 +286,13 @@
 
             <div class="row">
                 <div class="col-lg-9">
-                    <button type="button"
-                            class="btn btn-secondary text-primary" id="prev"><i
+                    <button class="btn btn-secondary text-primary"
+                            id="prev" type="button"><i
                             class="fas fa-chevron-circle-left text"></i>
                         Previous
                     </button>
-                    <button type="button"
-                            class="btn btn-secondary text-primary" id="next">Next <i
+                    <button class="btn btn-secondary text-primary"
+                            id="next" type="button">Next <i
                             class="fas fa-chevron-circle-right text"></i></button>
                 </div>
 
@@ -310,11 +309,13 @@
                             <div class="card-body">
                                 <h4 class="card-title text-primary"> The Higher Education Relevance and Quality Agency
                                     (HERQA)</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod
                                     tempor
                                     incididunt
                                     ut labore et dolore magna aliqua.</p>
-                                <a href="linkto.html" target="_blank" class="card-link"><i class="fa fa-link text-primary"></i>
+                                <a class="card-link" href="linkto.html" target="_blank"><i
+                                        class="fa fa-link text-primary"></i>
                                     Visit website</a>
                             </div>
                         </div>
@@ -328,11 +329,13 @@
                         <div class="card  h-100 card-bg hover-raise hover-shadow">
                             <div class="card-body">
                                 <h4 class="card-title text-primary">The Higher Education Strategy Center (HESC)</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod
                                     tempor
                                     incididunt
                                     ut labore et dolore magna aliqua.</p>
-                                <a href="linkto.html" target="_blank" class="card-link"><i class="fa fa-link text-primary"></i>
+                                <a class="card-link" href="linkto.html" target="_blank"><i
+                                        class="fa fa-link text-primary"></i>
                                     Visit website</a>
                             </div>
                         </div>
@@ -346,11 +349,13 @@
                         <div class="card  h-100 card-bg hover-raise hover-shadow">
                             <div class="card-body">
                                 <h4 class="card-title text-primary">The TVET Agency and the TVET Institute</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod
                                     tempor
                                     incididunt
                                     ut labore et dolore magna aliqua.</p>
-                                <a href="linkto.html" target="_blank" class="card-link"><i class="fa fa-link text-primary"></i>
+                                <a class="card-link" href="linkto.html" target="_blank"><i
+                                        class="fa fa-link text-primary"></i>
                                     Visit website</a>
                             </div>
                         </div>
@@ -363,11 +368,13 @@
                         <div class="card  h-100 card-bg hover-raise hover-shadow">
                             <div class="card-body">
                                 <h4 class="card-title text-primary">Ethernet</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod
                                     tempor
                                     incididunt
                                     ut labore et dolore magna aliqua.</p>
-                                <a href="linkto.html" target="_blank" class="card-link"><i class="fa fa-link text-primary"></i>
+                                <a class="card-link" href="linkto.html" target="_blank"><i
+                                        class="fa fa-link text-primary"></i>
                                     Visit website</a>
                             </div>
                         </div>
@@ -400,7 +407,7 @@
                                 compare a person's information with a government record so as to assure that the
                                 information is not
                                 fraud.</p>
-                            <a href="linkto.html" target="_blank" class="btn btn-outline-primary">
+                            <a class="btn btn-outline-primary" href="linkto.html" target="_blank">
                                 Go <i class="fas fa-arrow-right d-inline-block"></i></a>
                         </div>
                     </div>
@@ -415,7 +422,7 @@
                             <p class="card-text">System targeting on solving the time-consuming process of allocating
                                 applicants on
                                 government sponsored education for masters and PHD from government universities.</p>
-                            <a href="linkto.html" target="_blank" class="btn btn-outline-primary">
+                            <a class="btn btn-outline-primary" href="linkto.html" target="_blank">
                                 Go <i class="fas fa-arrow-right d-inline-block"></i></a>
                         </div>
                     </div>
@@ -437,7 +444,7 @@
                                 applicants can go through vacancy posts, get notified of new vacancies and get detailed
                                 information.
                             </p>
-                            <a href="linkto.html" target="_blank" class="btn btn-outline-primary">
+                            <a class="btn btn-outline-primary" href="linkto.html" target="_blank">
                                 Go <i class="fas fa-arrow-right d-inline-block"></i></a>
                         </div>
                     </div>
@@ -455,8 +462,8 @@
                                 and Higher Education. Results of the inquiries can be used in policy making process and
                                 to check the
                                 effectiveness of implemented plan.</p>
-                            <a href="linkto.html" target="_blank" class="btn btn-outline-primary">
-                                    Go <i class="fas fa-arrow-right d-inline-block"></i></a>
+                            <a class="btn btn-outline-primary" href="linkto.html" target="_blank">
+                                Go <i class="fas fa-arrow-right d-inline-block"></i></a>
                         </div>
                     </div>
                 </div>
@@ -470,7 +477,7 @@
     </div>
     <!--/ News and services -->
 
-    <div class="profiles mb-5" style="margin-top: 30px;" id="profiles">
+    <div class="profiles mb-5" id="profiles" style="margin-top: 30px;">
         <hr class="my-3"/>
         <h3 class="my-3 text-primary text-center">Leaders </h3>
         <hr class="my-3"/>
@@ -500,7 +507,7 @@
                                 style="width: 40px; height: 40px; line-height: 40px; font-size: 20px"></i></a>
                     </p>
 
-                    <a href="static/TrialPdf.pdf" target="_blank" class="text-primary">More Info...</a>
+                    <a class="text-primary" href="static/TrialPdf.pdf" target="_blank">More Info...</a>
 
                 </div>
                 <hr/>
@@ -533,7 +540,7 @@
                                 style="width: 40px; height: 40px; line-height: 40px; font-size: 20px"></i></a>
                     </p>
 
-                    <a href="static/TrialPdf.pdf" target="_blank" class="text-primary">More Info...</a>
+                    <a class="text-primary" href="static/TrialPdf.pdf" target="_blank">More Info...</a>
                 </div>
             </div>
 
@@ -562,7 +569,7 @@
                                 style="width: 40px; height: 40px; line-height: 40px; font-size: 20px"></i></a>
                     </p>
 
-                    <a href="static/TrialPdf.pdf" target="_blank" class="text-primary">More Info...</a>
+                    <a class="text-primary" href="static/TrialPdf.pdf" target="_blank">More Info...</a>
                 </div>
             </div>
 
@@ -621,9 +628,9 @@
             <div class="col-lg-6 col-md-12">
                 <div class="mapouter h-100">
                     <div class="gmap_canvas h-100">
-                        <iframe class="h-100 w-100" id="gmap_canvas" style="min-height: 400px"
-                                src="https://maps.google.com/maps?q=8%C2%B059'05.2%22N%2038%C2%B047'04.1%22E&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                        <iframe class="h-100 w-100" frameborder="0" id="gmap_canvas"
+                                marginheight="0"
+                                marginwidth="0" scrolling="no" src="https://maps.google.com/maps?q=8%C2%B059'05.2%22N%2038%C2%B047'04.1%22E&t=&z=13&ie=UTF8&iwloc=&output=embed" style="min-height: 400px">
                         </iframe>
 
                     </div>
